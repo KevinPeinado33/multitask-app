@@ -70,17 +70,6 @@ button:hover {
   background: #1d4ed8;
 }
 
-.google {
-  background: #e5e7eb;
-  color: black;
-  padding: 4%;
-
-}
-
-.google:hover {
-  background: #d1d5db;
-}
-
 /* Texto inferior */
 p {
   text-align: center;
