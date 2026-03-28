@@ -1,21 +1,21 @@
-function recuperar() {
+function recover() {
   const email = document.getElementById("email").value;
-  const emailGuardado = localStorage.getItem("email");
+  const emailSaved = localStorage.getItem("email");
   const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  // validar formato
+  // valid format
   if (!regexEmail.test(email)) {
-    alert("Ingresa un correo válido");
+    alert("Enter a valid email");
     return;
   }
 
-  // verificar si existe
-  if (email !== emailGuardado) {
-    alert("Este correo no está registrado");
+  // Check if it exists
+  if (email !== emailSaved) {
+    alert("This email is not registered");
     return;
   }
 
-  // simulación de envío
-  alert("Te enviamos un enlace para restablecer tu contraseña");
+  // Simulate sending
+  alert("We sent you an email to reset your password");
 }
 

@@ -1,20 +1,20 @@
-//login de email y contraseña 
+//login of email and password 
 console.log ('Js conectado');
-//verificar que estoy en la consola
+//check console
 
-//validación
-function validar() {
+//valid
+function validate() {
 
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
 if (!email.includes('@')) {
-alert ('Correo invalido');
+alert ('Invalide email');
 return;
 }
 
 if (password.length < 6) {
-    alert ('La contraseña debe tener minimo 6 caracteres');
+    alert ('The passowrd most be at least 6 characters long');
     return;
 }
 
@@ -25,10 +25,10 @@ const usuarioCorrecto = 'maria44@gmail.com';
 const passwordCorrecto = '123456';
 
 if (email !== usuarioCorrecto || password !== passwordCorrecto) {
-  alert ('Usuario o contraseña incorrectos');
+  alert ('Incorrect username or password');
   return;
 }
  
-alert ('Login exitoso:)')
+alert ('Login:)')
 
 }

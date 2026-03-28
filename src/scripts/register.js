@@ -1,7 +1,7 @@
   
-console.log ('prueba');
+console.log ('test');
 
-function registrar() {
+function register() {
 
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
@@ -10,18 +10,18 @@ function registrar() {
 const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 
-//validar email
+//valid email
 if (!regexEmail.test(email)) {
-alert ('Correo invalido');
+alert ('invalide email');
 return;
 }
 
 if (password.length <6) {
-    alert ('La contraseña debe tener al menos 6 caracteres, incluyendo letras y números.');
+    alert (' The password must be at least 6 characters long, including text and numbers');
     return;
 }
 
-alert ('Todo good:p');
+alert ('all good:p');
 window.location.href= 'login.html';
 
 }
