@@ -1,5 +1,5 @@
 //login of email and password 
-console.log ('Js conectado');
+console.log ('Js conect');
 //check console
 
 //valid
@@ -20,7 +20,7 @@ if (password.length < 6) {
 
 
 
-//Simulacion del usuario
+//Simulation of the username
 const usuarioCorrecto = 'maria44@gmail.com';
 const passwordCorrecto = '123456';
 
